@@ -1,0 +1,33 @@
+.group-card {
+    display: flex;
+    flex-direction: row;
+    outline: 1px solid gray;
+    padding: 10px;
+    height: 120px;
+    align-items: center;
+    gap: 30px;
+}
+
+.group-card_avatar {
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(13,17,23);
+    border-radius: 50%;
+}
+
+.group-card_friends-button {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(113,171,236);
+    padding: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.select{
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+}
